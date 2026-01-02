@@ -119,11 +119,11 @@ export default function OnboardingScreen() {
             </Text>
           </View>
 
-          {/* Bottom Controls */}
+
           <View style={styles.bottomControls}>
             <View style={styles.paginationContainer}>
               <View style={styles.dot} />
-              <View style={[styles.dot, styles.activeDot]} /> {/* Active middle dot */}
+              <View style={[styles.dot, styles.activeDot]} />
               <View style={styles.dot} />
             </View>
 
