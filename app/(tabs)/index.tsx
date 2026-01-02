@@ -45,7 +45,7 @@ export default function OnboardingScreen() {
 
       <SafeAreaView style={styles.safeArea}>
         <View style={styles.header}>
-          <TouchableOpacity onPress={() => console.log('Skip pressed')}>
+          <TouchableOpacity onPress={() => router.push('/login')}>
             <Text style={styles.skipText}>Skip</Text>
           </TouchableOpacity>
         </View>
@@ -79,7 +79,7 @@ export default function OnboardingScreen() {
 
       <SafeAreaView style={styles.safeArea}>
         <View style={styles.header}>
-          <TouchableOpacity onPress={() => console.log('Skip pressed')}>
+          <TouchableOpacity onPress={() => router.push('/login')}>
             <Text style={styles.skipText}>Skip</Text>
           </TouchableOpacity>
         </View>
@@ -171,7 +171,7 @@ export default function OnboardingScreen() {
             <Ionicons name="arrow-forward" size={20} color="white" />
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.loginLink} onPress={() => console.log('Log in pressed')}>
+          <TouchableOpacity style={styles.loginLink} onPress={() => router.push('/login')}>
             <Text style={styles.loginText}>Log in</Text>
           </TouchableOpacity>
         </View>
